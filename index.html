@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon info finder</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="icon" href="assets/pikachuFavicon.ico" type="image/x-icon"/>
+    <script src="myScript.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <img src="assets/pokeLogo.png" alt="logo" id="logoMain">
+     <h1 id='heading'>Pokemon info finder</h1>
+
+      <label for="pokeNameInput" id='labelInput'>Pokemon name:</label>  <!-- Used to input -->
+        <input type="text" id="pokeNameInput" name="pokeNameInput"><br><br>
+      <input type="button" id="buttonPress" value="Search" onclick ='onClickSubmit()'>
+      <!-- When this button is clicked, the function onClickSubmit() is called -->
+     <div class="pokeInfoDiv">
+        <p id='pokeID'>ID: </p>
+        <p id='pokeName'>Name: </p>
+        <p id='pokeWeight'>Weight: </p>
+        <p id='pokeHeight'>Height: </p>
+        <p id='pokeAbility'>Abilities: </p>
+        <p id='pokeType'>Type: </p>
+        <img src="assets/defaultPoke.png" alt="logo" id="pokeImage">
+     </div>
+
+  </body>
+
+
+
+
+
+</html>

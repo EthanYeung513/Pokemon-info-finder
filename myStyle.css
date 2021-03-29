@@ -1,0 +1,64 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #75D580;
+}
+
+#heading{
+  text-align: center;
+  padding-top: 5px;
+}
+
+#logoMain{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+#labelInput{ /* The label */
+  display: block;
+     text-align: center;
+     line-height: 150%;
+     font-size: 1.5em;
+
+
+}
+
+#pokeNameInput{ /* The textbox */
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buttonPress{ /* The button */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokeInfoDiv{ /* Div that holds all info */
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 3px;
+  width: 10%;
+  width: 350px;
+  height: 420px;
+  background-color: white;
+  border-style: solid;
+}
+
+#pokeImage{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
