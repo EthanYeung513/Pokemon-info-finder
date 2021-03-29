@@ -45,8 +45,8 @@ function displayInfo(pokeObj){
     //Change html content to reflect the current pokemons information
    document.getElementById("pokeID").innerHTML  = 'ID: ' + pokeObj.id
    document.getElementById("pokeName").innerHTML  = 'Name: ' + pokeObj.name
-   document.getElementById("pokeWeight").innerHTML  = 'Weight: ' + pokeObj.weight
-   document.getElementById("pokeHeight").innerHTML  = 'Height: ' + pokeObj.height
+   document.getElementById("pokeWeight").innerHTML  = 'Weight: ' + pokeObj.weight + ' hectograms'
+   document.getElementById("pokeHeight").innerHTML  = 'Height: ' + pokeObj.height + ' decimetres'
    document.getElementById("pokeType").innerHTML  = 'Type: ' + pokeObj.type
     document.getElementById("pokeAbility").innerHTML  = 'Abilities: ' + pokeObj.ability
 document.getElementById("pokeImage").src = pokeObj.image
