@@ -42,6 +42,7 @@ function displayInfo(pokeObj){
    pokeObj.type = pokeObj.type.charAt(0).toUpperCase() + pokeObj.type.slice(1); //Capitalize first letter
   pokeObj.ability = pokeObj.ability.charAt(0).toUpperCase() + pokeObj.ability.slice(1); //Capitalize first letter
 
+    //Change html content to reflect the current pokemons information
    document.getElementById("pokeID").innerHTML  = 'ID: ' + pokeObj.id
    document.getElementById("pokeName").innerHTML  = 'Name: ' + pokeObj.name
    document.getElementById("pokeWeight").innerHTML  = 'Weight: ' + pokeObj.weight
