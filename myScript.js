@@ -30,7 +30,7 @@ const getPokemon = async name => { // takes in name as parameter
         }
           displayInfo(pokeObj); //Display pokemon info on web page
     } catch (e) {
-      alert("Error, check if you misspelt pokemon name");
+      alert("Error, check if you misspelt pokemon name or entered invalid ID.");
     }
 
 
